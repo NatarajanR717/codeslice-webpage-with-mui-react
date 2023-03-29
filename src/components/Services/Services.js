@@ -30,7 +30,7 @@ function Services() {
         outcome.
       </p>
       <Grid container xs={12} spacing={2}>
-        <Grid item xs={4} className={classes.cardText}>
+        <Grid item lg={4} sm={6} xs={12}  className={classes.cardText}>
           <Item>
             <span>
               <FontAwesomeIcon icon={faCode} />
@@ -38,7 +38,7 @@ function Services() {
             <h4>Web Development</h4>
           </Item>
         </Grid>
-        <Grid item xs={4} className={classes.cardText}>
+        <Grid item lg={4} sm={6} xs={12}  className={classes.cardText}>
           <Item>
             <span>
               <FontAwesomeIcon icon={faMobileAlt} />
@@ -46,7 +46,7 @@ function Services() {
             <h4>Mobile App Development</h4>
           </Item>
         </Grid>
-        <Grid item xs={4} className={classes.cardText}>
+        <Grid item lg={4} sm={6} xs={12}  className={classes.cardText}>
           <Item>
             <span>
               <FontAwesomeIcon icon={faServer} />
@@ -54,7 +54,7 @@ function Services() {
             <h4>Web Hosting</h4>
           </Item>
         </Grid>
-        <Grid item xs={4} className={classes.cardText}>
+        <Grid item lg={4} sm={6} xs={12}  className={classes.cardText}>
           <Item>
             <span>
               <FontAwesomeIcon icon={faBullhorn} />
@@ -62,7 +62,7 @@ function Services() {
             <h4>Digital Marketing</h4>
           </Item>
         </Grid>
-        <Grid item xs={4} className={classes.cardText}>
+        <Grid item lg={4} sm={6} xs={12}  className={classes.cardText}>
           <Item>
             <span>
               <FontAwesomeIcon icon={faSearch} />
@@ -70,7 +70,7 @@ function Services() {
             <h4>SEO</h4>
           </Item>
         </Grid>
-        <Grid item xs={4} className={classes.cardText}>
+        <Grid item lg={4} sm={6} xs={12}  className={classes.cardText}>
           <Item>
             <span>
               <FontAwesomeIcon icon={faPaintBrush} />
