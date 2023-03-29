@@ -1,15 +1,19 @@
 import React from "react";
-import "./Header.css";
+import useStyles from "./style";
 import Logo from "../../images/codeslice-logo.png";
+import Grid from "@mui/material/Grid";
+
 
 function Header() {
+  const classes = useStyles()
+  console.log("class",classes);
   return (
-    <div className="header">
-      <div className="left">
+    <Grid container className={classes.container}>
+      <Grid item xs={1}>
         <img src={Logo} alt="logo"></img>
-      </div>
-      <div className="right">
-        <ul>
+      </Grid>
+      <Grid item xs={11} className={classes.li}>
+        <ul className={classes.ul}>
           <li>
             <a href="./">Home</a>
           </li>
@@ -29,8 +33,8 @@ function Header() {
             <a href="./">Contact</a>
           </li>
         </ul>
-      </div>
-    </div>
+      </Grid>
+    </Grid>
   );
 }
 
